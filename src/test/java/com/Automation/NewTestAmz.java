@@ -20,6 +20,8 @@ public class NewTestAmz {
 
   @Test
   public void test1() throws InterruptedException {
+
+	  //Searching for products by giving inputs
 	  
 	  driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Apple Watch");
 		Thread.sleep(3000);
